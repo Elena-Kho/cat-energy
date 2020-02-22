@@ -1,0 +1,32 @@
+.main-nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 1px solid orange;
+}
+
+.main-nav__logo-img {
+  display: block;
+  outline: 1px solid grey;
+}
+
+.main-nav__logo-header {
+  display: block;
+  width: 105px;
+  height: 20px;
+  outline: 1px solid grey;
+}
+
+.main-nav__toggle {
+  display: block;
+  outline: 1px solid grey;
+}
+
+.main-nav__list {
+  width: 320px;
+  margin: 0 auto;
+}
