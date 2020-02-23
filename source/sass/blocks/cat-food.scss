@@ -1,0 +1,85 @@
+.cat-food {
+  width: 320px;
+  padding: 0;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  border-top: 1px solid #f1f1f1;
+
+  &--more {
+    text-align: center;
+  }
+}
+
+.cat-food__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cat-food__info {
+  width: 140px;
+}
+
+.cat-food__info a {
+  text-decoration: none;
+}
+
+.cat-food__img {
+  display: block;
+}
+
+.cat-food__heading {
+  display: block;
+  width: 100px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #111111;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &--more {
+    width: 320px;
+    margin-top: 80px;
+  }
+}
+
+.cat-food__table {
+  width: 140px;
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 300;
+  color: #444444;
+
+  &--more {
+    width: 320px;
+  }
+
+  &--value {
+    width: 70px;
+    text-align: right;
+  }
+}
+
+.cat-food__link-plus {
+  position: relative;
+  top: 30px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  outline: 1px solid grey;
+
+  &::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    background: url("../img/plus-mobile.svg") no-repeat 50% 50%;
+    background-size: 30px 30px;
+  }
+}
