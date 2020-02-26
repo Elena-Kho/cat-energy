@@ -1,0 +1,21 @@
+.button {
+  display: block;
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  background-color: #68b738;
+  border: none;
+
+  &--show {
+    color: #444444;
+    background-color: #f2f2f2;
+  }
+}

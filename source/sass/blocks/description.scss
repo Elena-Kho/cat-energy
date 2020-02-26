@@ -1,0 +1,40 @@
+.description__heading {
+  @include heading;
+}
+
+.description__list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+  outline: 1px solid orange;
+}
+
+.description__item {
+  width: 200px;
+  min-height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 80px;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+  color: #444444;
+
+  &--useful {
+    background: url("../img/icon-useful-mobile.png") no-repeat 0 0;
+  }
+
+  &--easy {
+    background: url("../img/icon-easy-mobile.png") no-repeat 0 0;
+  }
+
+  &--daily {
+    background: url("../img/icon-daily-mobile.png") no-repeat 0 0;
+  }
+
+  &--fast {
+    background: url("../img/icon-fast-mobile.png") no-repeat 0 0;
+  }
+}
