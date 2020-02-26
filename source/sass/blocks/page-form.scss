@@ -1,0 +1,13 @@
+.page-form {
+  width: 320px;
+  margin: 0 auto;
+  outline: 1px solid orange;
+}
+
+.page-form__heading {
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 30px;
+
+  @include heading;
+}

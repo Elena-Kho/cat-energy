@@ -1,0 +1,33 @@
+.form-checkbox {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form-checkbox__label {
+  position: relative;
+  display: block;
+  padding-left: 50px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #222222;
+  text-transform: uppercase;
+  text-align: left;
+  cursor: pointer;
+  user-select: none;
+}
+
+.form-checkbox__input + label::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  border: 1px solid lightgrey;
+}
+
+.form-checkbox__input:checked + label::before {
+  background: url("../img/tick.svg") no-repeat 50% 50%;
+  background-size: 21px 16px;
+}

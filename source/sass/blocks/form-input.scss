@@ -1,0 +1,29 @@
+.form-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.form-input__input {
+  width: 100%;
+  margin-left: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  color: #444444;
+  text-transform: uppercase;
+  border: 1px solid  lightgrey;
+}
+
+.form-input__label {
+  flex-shrink: 0;
+  color: #222222;
+  padding-right: 15px;
+  outline: 1px solid red;
+}
